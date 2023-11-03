@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Saas Landing Page</title>
+  </head>
+
+  <body>
+    <!-- nav -->
+    <nav class="navbar" aria-label="Primary Navigation">
+      <div class="container flex">
+        <a href="/" class="navbar__logo">
+          <img src="./images/logo.png" alt="Brand Logo" />
+        </a>
+
+        <ul class="navbar__links flex">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li>
+            <a href="#" class="btn flex">
+              <img src="/images/user.svg" alt="user icon" />
+              <span>Log In</span>
+            </a>
+          </li>
+        </ul>
+
+        <button class="hamburger" aria-label="Toggle Menu ">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </button>
+
+        <ul class="mobile-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li>
+            <a href="#" class="btn flex">
+              <img src="/images/user.svg" alt="user icon" />
+              <span>Log In</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <header class="hero">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__content-heading">
+            A powerful solution to grow your startup, fast
+          </h1>
+          <p class="hero__content-text">
+            Organizem collaborate, and track progress seamlessly with our
+            one-step-shop startup growth tool.
+          </p>
+          <div class="hero__content-buttons flex">
+            <a href="#" class="btn btn-primary">Get started</a>
+            <a href="#" class="btn">
+              <img src="./images/monitor.svg" alt="icon" />
+              <span>Book a Demo</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- video section -->
+    <section class="video">
+      <div class="container">
+        <h2 class="video__heading">
+          See How It Works and get started in less than two minutes
+        </h2>
+
+        <div class="video__content">
+          <a href="#">
+            <img src="./images/video-preview.png" alt="video-preview" />
+          </a>
+
+          <a href="#" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonial">
+      <div class="container">
+        <h3 class="testimonial__heading">
+          Don't just take our word for it, see the success stories from
+          businesses just like yours.
+        </h3>
+
+        <div class="testimonial__grid">
+          <div class="card">
+            <p>
+              "Our business has seen a significant increase in productivity
+              since we started using the Growth app."
+            </p>
+
+            <h4>Katherine Smith</h4>
+            <small>Capodopera</small>
+          </div>
+
+          <div class="card">
+            <p>
+              "As a small business owner, it's important to have a tool that can
+              help me keep track of everything. The Growth app has been a
+              lifesaver for me alllowing me to manage my contacts, schedule,
+              appointments, and track progress all in one place."
+            </p>
+
+            <h4>Jonathan Lee</h4>
+            <small>Red Bolt</small>
+          </div>
+
+          <div class="card">
+            <p>
+              "The dashbaords and reporting features has provided valuable
+              insights into our performance and helped us make data-driven
+              decisions. It's a game changer for us."
+            </p>
+
+            <h4>David Wilson</h4>
+            <small>Slide</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing -->
+    <section class="pricing">
+      <div class="container">
+        <h3 class="pricing__heading">Pricing</h3>
+        <p class="pricing__subtitle">
+          Start free and scale while you grow. No hidden fees. Unlimited users
+          for free.
+        </p>
+
+        <div class="pricing__grid">
+          <!-- card 1 -->
+          <div class="pricing__grid-card card-1">
+            <div class="heading">
+              <h4>Simple</h4>
+              <p>
+                Keep track of your contacts, gain valuable insights, analyse
+                live data and performance metrics.
+              </p>
+              <p><span>Free</span> *No credit card needed</p>
+            </div>
+            <div class="body">
+              <ul>
+                <li>Real TIme Monitoring</li>
+                <li>Track key performance indicators</li>
+                <li>Schedule appointments</li>
+                <li>Organise, delegate and keep traclk of tasks</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="pricing__grid-card card-2">
+            <div class="heading">
+              <h4>Premium</h4>
+              <p>
+                Keep track of your contacts, gain valuable insights, analyze
+                live data and performance metrics.
+              </p>
+              <p><span>$49</span> /month</p>
+            </div>
+
+            <div class="body">
+              <p>Everything from the free plan plus:</p>
+              <ul>
+                <li>Data-driven decisions</li>
+                <li>Data visualization</li>
+                <li>Scheduled appointments</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+          </div>
+        </div>
+
+        <p class="pricing__footer">
+          All prices are in USD and charged per month with applicable taxes
+          added at checkout.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="faqs">
+      <div class="container">
+        <h3>Frequently Asked Questions</h3>
+
+        <ul class="faqs__menu flex">
+          <li class="active">All</li>
+          <li>Getting Started</li>
+          <li>Pricing</li>
+        </ul>
+
+        <div class="faqs__group flex">
+          <div class="faqs__content">
+            <div class="faqs__header flex">
+              <h4>
+                How does the contact management feature help me keep track of
+                clients and partners?
+              </h4>
+
+              <img src="./images/plus-circle.svg" alt="plus icon" />
+            </div>
+            <div class="faqs__body open">
+              <p>
+                Keep track of your contacts, gain valuable insights, analyze
+                live data and performance metrics
+              </p>
+            </div>
+          </div>
+          <div class="faqs__content">
+            <div class="faqs__header flex">
+              <h4>
+                How does the contact management feature help me keep track of
+                clients and partners?
+              </h4>
+
+              <img src="./images/plus-circle.svg" alt="plus icon" />
+            </div>
+            <div class="faqs__body">
+              <p>
+                Keep track of your contacts, gain valuable insights, analyse
+                live data and performance metrics
+              </p>
+            </div>
+          </div>
+          <div class="faqs__content">
+            <div class="faqs__header flex">
+              <h4>
+                How does the contact management feature help me keep track of
+                clients and partners?
+              </h4>
+
+              <img src="./images/plus-circle.svg" alt="plus icon" />
+            </div>
+            <div class="faqs__body">
+              <p>
+                Keep track of your contacts, gain valuable insights, analyse
+                live data and performance metrics
+              </p>
+            </div>
+          </div>
+          <div class="faqs__content">
+            <div class="faqs__header flex">
+              <h4>
+                How does the contact management feature help me keep track of
+                clients and partners?
+              </h4>
+
+              <img src="./images/plus-circle.svg" alt="plus icon" />
+            </div>
+            <div class="faqs__body">
+              <p>
+                Keep track of your contacts, gain valuable insights, analyse
+                live data and performance metrics
+              </p>
+            </div>
+          </div>
+          <div class="faqs__content">
+            <div class="faqs__header flex">
+              <h4>
+                How does the contact management feature help me keep track of
+                clients and partners?
+              </h4>
+
+              <img src="./images/plus-circle.svg" alt="plus icon" />
+            </div>
+            <div class="faqs__body">
+              <p>
+                Keep track of your contacts, gain valuable insights, analyse
+                live data and performance metrics
+              </p>
+            </div>
+          </div>
+          <div class="faqs__content">
+            <div class="faqs__header flex">
+              <h4>
+                How does the contact management feature help me keep track of
+                clients and partners?
+              </h4>
+
+              <img src="./images/plus-circle.svg" alt="plus icon" />
+            </div>
+            <div class="faqs__body">
+              <p>
+                Keep track of your contacts, gain valuable insights, analyse
+                live data and performance metrics
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+
+          <div>
+            <a href="/" class="logo">
+              <img src="./images/logo-white.png" alt="logo">
+            </a>
+            <div class="card">
+              <h3>Subscribe to the Newsletter</h3>
+              <p>Subscribe now to take your business to the next level</p>
+              <label for="email__input">
+                <input type="email" name="email" id="email__input">
+              </label>
+              <button class="btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+
+          <div>
+            <h3>Company</h3>
+
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Our Process</a></li>
+              <li><a href="#">Join our team</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Resources</h3>
+
+            <ul>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Research</a></li>
+              <li><a href="#">Recent Projects</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Contact</h3>
+            <a href="#">hello@growthapp.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
