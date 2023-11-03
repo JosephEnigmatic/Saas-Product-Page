@@ -159,7 +159,6 @@ body {
   padding: 7.5rem 1.5rem;
   transition: all 0.5s ease-in-out;
   transform-origin: right;
-  width: 260px;
   min-height: 100vh;
   background-color: #fff;
 }
